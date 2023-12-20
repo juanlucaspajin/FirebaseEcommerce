@@ -1,0 +1,19 @@
+.cart-row {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 15px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.cart-row img {
+    width: 100px;
+    margin: 5px;
+}
+
+.cart-row .other-description {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,8 +1,27 @@
-# React + Vite
+# Proyecto final E-Commerce Adrian Menet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introducción
+El proyecto final consta de un E-Commerce en el cual se comercializan prestaciones de servicios educativos relacionados con la música.
 
-Currently, two official plugins are available:
+## Tecnologías implementadas
+- React
+- Bootstrap 5
+- React router
+- React dom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ¿Cómo iniciar el proyecto?
+1. Clonamos el repositorio usando `git clone`
+2. En la carpeta donde clonamos el repo, abrimos una terminal y escribimos `npm install`
+3. Luego de finalizada la instalación de las dependencias, en la misma terminal escribimos `npm run dev`
+
+## Capturas de pantalla
+### Home
+![Home page!](./src/assets/img/home.png)
+
+## Detalle del producto
+![Detalle del producto!](./src/assets/img/product_detail.png)
+
+## Carrito de compras
+![Carrito de compras!](./src/assets/img/cart.png)
+
+

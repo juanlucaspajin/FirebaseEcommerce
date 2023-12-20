@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import ItemDetailContainer from "../ItemDetailContainer/ItemDetailContainer";
 
 function Item() {
   const { itemId } = useParams();
@@ -25,9 +26,16 @@ function Item() {
     },
   ];
   return (
-    <div className="item-container">
+    <div className="container">
       <h1>{curso?.name}</h1>
-      <img src={curso?.pic} alt={curso?.name} />
+      <div className="row">
+        <div className="col-md-6">
+          <img src={curso?.pic} alt={curso?.name} width={200}/>
+        </div>
+        <div className="col-md-6">
+          <ItemDetailContainer />
+        </div>
+      </div>
     </div>
   );
 }
