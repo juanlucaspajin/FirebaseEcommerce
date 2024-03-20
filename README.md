@@ -1,7 +1,7 @@
-# Proyecto final E-Commerce Adrian Menet
+# PreEntrega_2 E-Commerce Adrian Menet
 
 ## Introducción
-El proyecto final consta de un E-Commerce en el cual se comercializan prestaciones de servicios educativos relacionados con la música.
+El proyecto consta de un E-Commerce en el cual se comercializan prestaciones de servicios educativos relacionados con la música.
 
 ## Tecnologías implementadas
 - React
