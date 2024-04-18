@@ -1,3 +1,22 @@
+
+
+import { firestore } from "../db/firebase";
+import { getDocs, getDoc, collection, doc } from "@firebase/firestore";
+
+export const getAllCursos = async () => {
+  await getDocs(collection(firestore, "cursos"))
+      .then((querySnapshot)=>{
+          const newData = querySnapshot.docs
+              .map((doc) => ({...doc.data(), id: doc.id}));
+          setCursos(newData);
+          console.log(cursos, newData);
+  })
+}
+
+export const getOneCurso = async (param) => {
+  return await getDoc(doc(firestore, 'cursos', param)).data()
+}
+
 export const cursos = [
     {
       id: 1,

@@ -8,7 +8,7 @@ function ItemDescription({ description, price }) {
             </p>
 
             <p>
-                Su precio es de {formatMoney(price)} ARS
+                Su precio es de {price} ARS
             </p>
         </div>
     );
